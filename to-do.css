@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: burlywood; */
+  background-color: rgb(29, 142, 207);
+}
+
+.container {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 50px; */
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* gap: 21px; */
+}
+input,
+textarea,
+button {
+  /* padding: 10px;    */
+  border: 1px solid black;
+  font: 1rem sans-serif;
+  /* border-radius: 3px; */
+  outline: none;
+  outline: none;
+  margin: 6px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  /* margin: 20px; */
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+
+#data {
+  margin-bottom: 10px;
+}
+button {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(66, 101, 86);
+}
+
+.taskadd {
+  /* background-color: rgb(247, 247, 247); */
+  font: 100 1.1rem sans-serif;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 1vmax;
+  justify-content: space-between;
+}
+
+.taskadd > div {
+  width: 100%;
+}
+
+.deletebtn {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  float: right;
+  /* margin-top: ; */
+  /* margin-bottom: 40px; */
+  box-sizing: border-box;
+  cursor: pointer;
+}
